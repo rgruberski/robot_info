@@ -1,0 +1,5 @@
+string robot_description
+string serial_number
+string ip_address
+string firmware_version
+string maximum_payload
