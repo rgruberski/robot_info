@@ -2,11 +2,6 @@
 #include <robot_info/agv_robot_info_class.hpp>
 
 AGVRobotInfo::AGVRobotInfo(ros::NodeHandle *nh) : RobotInfo(nh) {
-
-  robot_description = "Mir100";
-  serial_number = "567A359";
-  ip_address = "169.254.5.180";
-  firmware_version = "3.5.8";
   maximum_payload = "100 Kg";
 }
 
