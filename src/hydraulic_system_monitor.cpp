@@ -7,3 +7,13 @@ const HydraulicSystemData HydraulicSystemMonitor::get_data() {
   data.hydraulic_oil_pressure = hydraulic_oil_pressure;
   return data;
 }
+
+void HydraulicSystemMonitor::set_data(
+    const std::string hydraulic_oil_temperature,
+    const std::string hydraulic_oil_tank_fill_level,
+    const std::string hydraulic_oil_pressure
+  ) {
+  this->hydraulic_oil_temperature = hydraulic_oil_temperature;
+  this->hydraulic_oil_tank_fill_level = hydraulic_oil_tank_fill_level;
+  this->hydraulic_oil_pressure = hydraulic_oil_pressure;
+}
