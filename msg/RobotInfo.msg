@@ -3,3 +3,6 @@ string serial_number
 string ip_address
 string firmware_version
 string maximum_payload
+string hydraulic_oil_temperature
+string hydraulic_oil_tank_fill_level
+string hydraulic_oil_pressure
